@@ -5,7 +5,9 @@ body{
     align-items: center;
     height: 100vh;
     width:100vw;
-    background: linear-gradient(#22AFFC,#00FC9C)
+    background: linear-gradient(#22AFFC,#00FC9C);
+    margin: 0px;
+    padding: 0px;
 }
 h1{
     color: #071A3A;
@@ -16,14 +18,14 @@ h3{
     margin: 0px;
     font-style: italic;
 }
-h4{
+span{
     color: #071A3A;
     margin: 0px;
-    margin: Opx;
-    opacity: 0.8;
+    font-size: 16px;
+    font-style: italic;
     text-align: center;
 }
-body>div{
+div{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -32,4 +34,9 @@ body>div{
     border-radius: 20px;
     width: 90vw;
     height: 50vh;
+}
+img{
+    border-radius: 30px;
+    width: '90%';
+    height: '20%';
 }
