@@ -7,14 +7,20 @@ body{
     width:100vw;
     background: linear-gradient(#22AFFC,#00FC9C)
 }
-body>h1{
+h1{
     color: #071A3A;
     margin: 0px;
 }
-body>h3{
+h3{
     color: #071A3A;
     margin: 0px;
     font-style: italic;
+}
+h4{
+    color: #071A3A;
+    margin: 0px;
+    margin: Opx;
+    opacity: 0.8;
 }
 body>div{
     display: flex;
@@ -24,7 +30,7 @@ body>div{
     background: #FFFFFF;
     border-radius: 20px;
     width: 90vw;
-    height: 75vh;
+    height: 50vh;
 }
 body>div>div>div{
     display: flex;
