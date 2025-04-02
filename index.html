@@ -11,10 +11,18 @@
     <h1>LindApp</h1>
     <h3>Agnesoft</h3>
     <div>
-        <img src="./images/logo.png" alt="" height=20% >
+        <img class="logo" src="./images/logo.png" alt="" >
         <span>Protection, assistance et épanouissement des points de vente</span>
-        <img src="./images/google play.png" alt="" height="20%" width="90%" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.gloimir.linda'">
-        <img src="./images/app store.png" alt="" height="20%" width="90%" >
+        <img src="./images/google play.png" alt="" height="15%" width="90%" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.gloimir.linda'">
+        <img src="./images/app store.png" alt="" height="15%" width="90%" >
     </div>
+    <script>
+        const dimensionner = ()=>{
+            const hauteur = window.innerHeight
+            document.body.style.height = `${hauteur}px`
+        }
+        window.onload = dimensionner
+        window.onresize = dimensionner
+    </script>
 </body>
 </html>
